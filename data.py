@@ -10,7 +10,7 @@ import requests
 TRADE_DEFICIT = "NETEXP"
 
 #CPI
-fred = Fred(api_key= 'a188bdb98c824eb9c21e9e236b5e05b4')
+fred = Fred(api_key= 'INSERT API KEY HERE')
 # Get the data as a Series
 series = fred.get_series(TRADE_DEFICIT, observation_start='2015-01-01', observation_end='2025-01-01')
 
